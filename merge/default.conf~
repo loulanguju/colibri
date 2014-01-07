@@ -1,0 +1,9 @@
+## The Config file for the Merge
+
+# module name      offset   output file   offset  count(1 count = 512bytes)
+# example:
+# boot,            0,       demo.img,      0,      1
+../boot/boot, 0, ../falcon.img, 0, 1
+../boot/monitor, 0, ../falcon.img, 1, 1
+../kernel/kernel, 0, ../falcon.img, 10, 2
+
